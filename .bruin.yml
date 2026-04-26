@@ -1,0 +1,11 @@
+default_environment: default
+environments:
+  default:
+    connections:
+      duckdb:
+        - name: "duckdb-default"
+          path: "duckdb.db"
+          project_id: "lassa-watch"
+          service_account_file: "C:/Users/ADMIN/Downloads/lassa-watch-81729371006a.json"
+
+    
